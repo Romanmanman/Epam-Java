@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Catalogue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Library Catalogue</h1>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#catalogue" class="nav__link">Catalogue</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="home" class="section">
+            <h2 class="section__title">Welcome to Our Library</h2>
+        </section>
+
+        <section id="catalogue" class="section">
+            <h2 class="section__title">Book Catalogue</h2>
+            <div class="catalogue__search">
+                <label for="search" class="search__label">Search Books:</label>
+                <input type="text" id="search" class="search__input" placeholder="Search by title or author">
+            </div>
+            <ul class="catalogue__list" id="bookList">
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section__title">Contact Us</h2>
+            <p class="section__description">Email: info@library.com</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2024 Library Catalogue. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
